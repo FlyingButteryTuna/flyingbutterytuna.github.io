@@ -1,0 +1,40 @@
+.box {
+  text-align: right;
+  height: 100vh;
+
+  padding-right: 10vw;
+
+}
+
+.exp {
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    text-align: left;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    -ms-column-count: 1;
+    column-count: 1;
+    -moz-column-gap: 30px;
+    -webkit-column-gap: 30px;
+    -ms-column-gap: 30px;
+    column-gap: 30px;
+    display: inline-block;
+    font-size: 1.5em
+}
+
+br {
+  display: block;
+  content: " ";
+  margin: 1vw;
+}
+
+body{
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
