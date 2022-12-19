@@ -1,7 +1,7 @@
 .box {
   text-align: right;
   padding-right: 10vw;
-  height: auto;
+  height: max-content;
   width: max-content;
 }
 
@@ -24,7 +24,7 @@
     -ms-column-gap: 30px;
     column-gap: 30px;
     display: inline-block;
-    font-size: 1.5em
+    font-size: 2.5vh
 }
 
 br {
